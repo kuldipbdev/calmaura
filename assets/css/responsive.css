@@ -37,13 +37,16 @@
     position: absolute;
     top: 4rem;
     right: 1rem;
+    left: 1rem;
     flex-direction: column;
     align-items: flex-start;
     background: var(--mobile-nav-bg);
-    padding: 1rem;
+    padding: 1.25rem 1rem;
     border: 1px solid var(--border);
     border-radius: 1rem;
-    min-width: 220px;
+    min-width: auto;
+    width: auto;
+    max-width: calc(100vw - 2rem);
     box-shadow: var(--shadow);
     z-index: 30;
     backdrop-filter: blur(18px);
@@ -51,6 +54,14 @@
 
   .nav-links.open {
     display: flex;
+  }
+
+  .nav-links.open a {
+    color: var(--text);
+  }
+
+  .nav-links.open a:hover {
+    color: var(--accent-2);
   }
 
   .menu-toggle {
