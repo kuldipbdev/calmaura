@@ -1,0 +1,16 @@
+{
+  "name": "Calmaura",
+  "short_name": "Calmaura",
+  "description": "Meditation, breathing, sleep stories, and daily calm routines in one app.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#5b5cf6",
+  "icons": [
+    {
+      "src": "assets/images/icons/meditation.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
